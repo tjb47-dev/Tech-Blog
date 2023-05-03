@@ -1,0 +1,19 @@
+{{#each posts as |post| }}
+<div class="container post-container mb-3">
+  <div class="mb-4 project">
+    <div class="display-flex align-center justify-space-between post-header">
+      <h2>
+        <a href="/post/{{post.id}}">{{post.name}}</a>
+      </h2>
+      <p>Created by {{post.user.name}} on {{format_date post.date_created}}</p>
+    </div>
+  </div>
+    <div class="row">
+        <div class="col-md-12">
+          <p>
+          {{post.description}}
+          </p>
+        </div>
+    </div>
+</div>
+{{/each}}

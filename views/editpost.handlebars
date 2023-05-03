@@ -1,0 +1,13 @@
+<div class="single-post">
+  <div>
+  <h2>Edit Post</h2>
+  <input class="post-title" value="{{name}}">
+  <p>Created by {{user.name}} on {{format_date date_created}}</p>
+  </div>
+  <textarea class="post-content">{{description}}</textarea>
+  <p>
+    <button class="btn btn-primary edit-post-btn" data-id="{{id}}">Update Post</button>
+  </p>
+</div>
+
+<script src="./js/editPost.js"></script>
