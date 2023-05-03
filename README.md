@@ -2,7 +2,7 @@
 CMS-style blog site that allows you to publish articles, blog posts, and your thoughts and opinions. The CMS-style blog site would provide you with a user-friendly interface where you can easily create, manage and publish your content.
 
 ## Screenshot
-![Tech Blog]()
+![Tech Blog](https://github.com/tjb47-dev/Tech-Blog/blob/main/public/img/tech-blog.png?raw=true)
 
 
 ## Table of Contents
@@ -35,7 +35,7 @@ CMS-style blog site that allows you to publish articles, blog posts, and your th
    ```  
 
 ## Link
-[Link](link)
+[Tech-Blog Link](link)
 
 
 ## License
